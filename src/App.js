@@ -1,5 +1,7 @@
 import './App.css';
 import HelloWorld from './components/HelloWord';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
@@ -13,11 +15,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello React</h1>
-      <p>Hello, {newName}</p>
-      <p>soma: {sum(1,3)}</p>
-      <img src={url} alt="imagem"/>
       <HelloWorld />
+      <SayMyName nome="Thiago"/>
+      <Pessoa nome="Alan" idade="28" profissao="programador" foto="https://www.researchgate.net/profile/Irina-Gladkova/publication/253864235/figure/fig3/AS:668627082690571@1536424527359/The-image-shown-here-is-a-300-300-pixel-cropped-section-of-SEVIRI-Band-3-digital-counts_Q320.jpg"/>
     </div>
   );
 }

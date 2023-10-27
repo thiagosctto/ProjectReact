@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWord';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
 
@@ -15,7 +16,10 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Testando CSS</h1>
       <HelloWorld />
+      <Frase/>
+      <Frase/>
       <SayMyName nome="Thiago"/>
       <Pessoa nome="Alan" idade="28" profissao="programador" foto="https://www.researchgate.net/profile/Irina-Gladkova/publication/253864235/figure/fig3/AS:668627082690571@1536424527359/The-image-shown-here-is-a-300-300-pixel-cropped-section-of-SEVIRI-Band-3-digital-counts_Q320.jpg"/>
     </div>
